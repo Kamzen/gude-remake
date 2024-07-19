@@ -1,0 +1,46 @@
+.sold-container {
+  margin-top: 30px;
+  align-items: center;
+  width: 90%;
+  height: 500px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 5px;
+}
+
+.sold-parent-container {
+  width: 100%;
+  flex-direction: row;
+  display: flex;
+  margin: 10px;
+}
+
+.sold-text {
+  margin: -10px;
+  background-color: red;
+  width: 50px;
+  border-radius: 5px 0px 0px 0px;
+}
+
+.sold-text .sold-text-wrapper {
+  text-align: center;
+  font-size: 18px;
+  font-size: 900;
+  color: white;
+}
+
+.sold-child-container {
+  width: 55%;
+  float: left;
+}
+
+.sold-2ndChild-container {
+  width: 45%;
+  float: right;
+}
+
+.sold-list-items {
+  width: 100%;
+  margin: 20px;
+  font-size: 30px;
+  font-weight: bold;
+}
